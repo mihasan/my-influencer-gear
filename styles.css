@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: poppins;
+    
+}
+
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4vw;
+}
+
+
+.navigation-title{    
+    display: flex;
+
+}
+
+.nav{
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+/* second-part design */
+.second-section{
+    margin-bottom: 100px;
+}
+.second-part{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 4vw 0 4vw;
+        
+}
+
+#main-title{font-size: 52px;
+font-weight: bold;}
+.banner-image{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    justify-content: center;
+}
+
+.banner-image img{
+    
+    padding-right: 50px;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    
+}
+.first-heading{
+    width: 100%;
+    margin-right: 133px;
+}
+
+.prebook-button{
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    border-radius: 15px;
+    color: white;
+}
+
+.fa-solid{margin-left: 15px;}
+
+
+/* thirdpart design -------------------------*/
+
+.link-market{
+    margin: 25px 165px 25px 165px; 
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+
+hr{
+    /* height: 1px; */
+    /* // background-color: red; */
+    background-image:linear-gradient(90deg,transparent,#C0CCDA, transparent);
+    
+    border: 0;
+    height: 1px;
+    margin: 0 165px 0 165px;
+
+}
+
+
+/* design 4th part ----------------*/
+.fourth-section{
+    margin-top: 100px;
+    width: 1047px;
+    margin: 0 auto;
+    padding-top: 100px;
+    /* border: 1px solid gray; */
+    
+}
+
+.products-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    row-gap: 30px;
+   
+    
+    }
+
+.collection-title{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.products{
+    box-shadow: 0 4px 30px #00000032;
+    padding: 17px 14px 17px 14px;
+}
+
+.product-feature{
+    font-size: 14px;
+}
+
+.fa-star{
+    color: gold;
+    margin: 0;
+}
+.fa-arrow-right{
+    color: white;
+    margin-left: 10px;
+}
+
+.see-more{
+    width: 1047px;
+    /* border: 1px solid red; */
+    text-align: end;
+    color:#E02C6D ;
+}
+
+
+/* fift section design */
+
+.fifth-section{
+    width: 1110px;
+    height: 270px;
+    margin: 0 auto;
+}
+
+.fifth-part{
+    display: flex;
+    gap: 100px;
+}
+
+.joinnow-button{
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    font-weight: 700px;
+    color: white;
+}
+
+.fift-title{
+    font-size: 38px;
+    font-weight: 700px;
+}
